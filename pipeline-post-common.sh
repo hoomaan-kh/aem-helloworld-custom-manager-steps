@@ -2,3 +2,4 @@
 set -o nounset
 
 echo "[aem-helloworld] Executing Custom Manager pipeline-post-common step..."
+echo $(printenv)

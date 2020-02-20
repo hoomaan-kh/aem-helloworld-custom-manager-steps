@@ -29,5 +29,6 @@ package: clean
 	 gem install bundler --version=1.17.3
 	 bundle install --binstubs -j4
 	 bundle exec r10k puppetfile install --verbose --moduledir modules
+	 pip install -r requirements.txt
 
 .PHONY: ci clean lint package

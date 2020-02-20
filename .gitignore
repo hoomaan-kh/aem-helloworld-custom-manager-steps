@@ -4,3 +4,4 @@ bin
 Gemfile.lock
 .idea/
 stage/
+modules/
